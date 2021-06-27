@@ -7,8 +7,9 @@
 #=================================================
 
 name: Repo Dispatcher
-
 on: 
+  watch:
+    types: started
   # push: 
   #   branches:
   #     - master
